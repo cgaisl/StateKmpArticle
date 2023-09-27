@@ -11,6 +11,7 @@ data class PhoneDialerScreenState(
     val phoneNumber: String = "",
 )
 
+
 interface PhoneDialerScreenActions {
     fun inputPhoneNumber(number: String)
     fun onDialButtonPress()

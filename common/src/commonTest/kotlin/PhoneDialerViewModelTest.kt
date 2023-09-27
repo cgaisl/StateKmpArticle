@@ -11,7 +11,7 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 
 
-class PhoneDialerViewModelTest {
+class PhoneDialerScreenViewModelTest {
     @OptIn(ExperimentalCoroutinesApi::class)
     @BeforeTest
     fun setup() {

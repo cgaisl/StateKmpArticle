@@ -13,7 +13,7 @@ struct PhoneDialerScreen: View {
         )
         .task {
             viewModel.loadUsername()
-            
+
             for await sideEffect in viewModel.sideEffects {
                 switch onEnum(of: sideEffect) {
                 case let .dial(data):
